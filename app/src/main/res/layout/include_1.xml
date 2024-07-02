@@ -27,12 +27,20 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:cardCornerRadius="8dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/header_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitCenter"
+                app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
                 android:src="@drawable/ic_launcher_background" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/header_image"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/ic_launcher_background" />-->
 
 <!--        <com.google.android.material.card.MaterialCardView-->
 <!--            android:layout_width="wrap_content"-->
